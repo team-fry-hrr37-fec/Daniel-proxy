@@ -3,7 +3,7 @@ const app = express();
 const port = 2001;
 const cors = require('cors');
 
-app.use('/', express.static(__dirname + '/../client/dist'));
+app.use('/', express.static(__dirname + '/../public'));
 
 app.use(express.json());
 
